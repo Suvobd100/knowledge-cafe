@@ -1,3 +1,5 @@
+import Blogs from "./assets/components/Header/Blogs/Blogs"
+import Header from "./assets/components/Header/Header"
 
 
 function App() {
@@ -5,9 +7,8 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline bg-red-400">
-      Hello world!
-    </h1>
+    <Header></Header>  
+    <Blogs></Blogs>
     </>
   )
 }
