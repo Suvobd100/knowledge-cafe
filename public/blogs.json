@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "cover-title": "The Secrets of the Universe",
+        "author": "Jane Doe",
+        "author-img": "https://randomuser.me/api/portraits/women/1.jpg",
+        "post-date": "2023-09-15",
+        "reading-time": 5,
+        "hashtag": ["#science", "#universe", "#secrets"]
+    },
+    {
+        "id": 2,
+        "cover-title": "A Journey Through Time",
+        "author": "John Smith",
+        "author-img": "https://randomuser.me/api/portraits/men/1.jpg",
+        "post-date": "2023-08-22",
+        "reading-time": 7,
+        "hashtag": ["#history", "#time", "#journey"]
+    },
+    {
+        "id": 3,
+        "cover-title": "The Art of Cooking",
+        "author": "Emily Johnson",
+        "author-img": "https://randomuser.me/api/portraits/women/2.jpg",
+        "post-date": "2023-07-30",
+        "reading-time": 10,
+        "hashtag": ["#cooking", "#food", "#art"]
+    },
+    {
+        "id": 4,
+        "cover-title": "Exploring the Depths of the Ocean",
+        "author": "Michael Brown",
+        "author-img": "https://randomuser.me/api/portraits/men/2.jpg",
+        "post-date": "2023-06-18",
+        "reading-time": 8,
+        "hashtag": ["#ocean", "#exploration", "#marine"]
+    },
+    {
+        "id": 5,
+        "cover-title": "The Future of Technology",
+        "author": "Sarah Wilson",
+        "author-img": "https://randomuser.me/api/portraits/women/3.jpg",
+        "post-date": "2023-05-05",
+        "reading-time": 6,
+        "hashtag": ["#technology", "#future", "#innovation"]
+    }
+]
