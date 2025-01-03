@@ -1,8 +1,21 @@
+import Bookmark from "../Bookmark/Bookmark"
+import PropTypes from "prop-types"
 
-const Bookmarks = () => {
+const Bookmarks = ({bookmarks}) => {
+    // const {coverTitle} = bookmarks;
   return (
-    <div>Bookmarks</div>
+    <div>
+        <h2>Bookmarks : {bookmarks.length} </h2>
+        {
+            bookmarks.map((b,idx) =><Bookmark key={idx} bookmark={b}></Bookmark>)
+        }
+        
+
+    </div>
   )
+}
+Bookmarks.propTypes={
+    bookmarks: PropTypes.object,
 }
 
 export default Bookmarks
