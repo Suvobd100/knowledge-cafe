@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import bookmarkIcon from "../../images/bookmark-16.png"
 
-const Blog = ({blog,handelBookMark}) => {
+const Blog = ({blog,handelBookMark,handelReadTime}) => {
     
     const{coverImg,coverTitle,author,authorImg,postDate,
         readingTime,hashtag} = blog;
@@ -21,7 +21,7 @@ const Blog = ({blog,handelBookMark}) => {
                 {readingTime} <span>min read</span>
 
             </p>
-            <img onClick={()=> handelBookMark(blog)} className="w-5 h-5 cursor-pointer" src={bookmarkIcon} alt="" />
+            <img onClick={()=> handelBookMark(blog) } className="w-5 h-5 cursor-pointer" src={bookmarkIcon} alt="" />
         </div>
         </div>
         <h2 className="text-4xl font-bold">{coverTitle}</h2>
@@ -30,11 +30,13 @@ const Blog = ({blog,handelBookMark}) => {
                 hashtag.map((h,idx) =><span key={idx} className="ml-2"><a href="">{h}</a></span>)
             }
         </p>
+        <button onClick={()=>{handelReadTime(readingTime)}} href='' className="text-blue-700 underline font-bold"> Mark As Read</button>
     </div>
   )
 }
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handelBookMark: PropTypes.func.isRequired
+    handelBookMark: PropTypes.func.isRequired,
+    handelReadTime: PropTypes.func.isRequired,
 }
 export default Blog

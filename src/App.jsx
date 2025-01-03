@@ -7,12 +7,18 @@ import PropTypes from "prop-types"
 
 
 function App() {
-  const [bookmarks,setBookmarks]=useState([])
+  const [bookmarks,setBookmarks]=useState([]);
+  const [readtime,setReadtime]= useState(0)
 
   const handelBookMark= blog =>{
     const newBookMarks=[...bookmarks,blog];
     setBookmarks(newBookMarks);
     // console.log(bookmarks);
+  }
+
+  const handelReadTime=time=>{
+    setReadtime(readtime + time)
+    // console.log('from HandelTime fun');
   }
  
 
@@ -22,10 +28,10 @@ function App() {
     <Header></Header>  
     <div className="grid grid-cols-5">
       <div className="col-span-5 lg:col-span-4" >
-        <Blogs handelBookMark={handelBookMark} ></Blogs>
+        <Blogs handelBookMark={handelBookMark} handelReadTime={handelReadTime}  ></Blogs>
       </div>
       <div className="col-span-5 lg:col-span-1">
-      <Bookmarks bookmarks={bookmarks} ></Bookmarks>
+      <Bookmarks bookmarks={bookmarks} readtime={readtime} ></Bookmarks>
       </div>
     </div>
     </div>
@@ -34,7 +40,8 @@ function App() {
 }
 
 App.propTypes ={
-  handelBookMark: PropTypes.func.isRequired
+  handelBookMark: PropTypes.func.isRequired,
+  handelReadTime: PropTypes.func.isRequired,
 
 }
 
