@@ -1,47 +1,52 @@
 [
     {
         "id": 1,
-        "cover-title": "The Secrets of the Universe",
+        "coverTitle": "The Secrets of the Universe",
         "author": "Jane Doe",
-        "author-img": "https://randomuser.me/api/portraits/women/1.jpg",
-        "post-date": "2023-09-15",
-        "reading-time": 5,
-        "hashtag": ["#science", "#universe", "#secrets"]
+        "authorImg": "https://randomuser.me/api/portraits/women/1.jpg",
+        "postDate": "2023-09-15",
+        "readingTime": 5,
+        "hashtag": ["#science", "#universe", "#secrets"],
+        "coverImg": "https://picsum.photos/seed/640d1025-6b73-40c8-a0f7-4dba991edf19/1080/720"
     },
     {
         "id": 2,
-        "cover-title": "A Journey Through Time",
+        "coverTitle": "A Journey Through Time",
         "author": "John Smith",
-        "author-img": "https://randomuser.me/api/portraits/men/1.jpg",
-        "post-date": "2023-08-22",
-        "reading-time": 7,
-        "hashtag": ["#history", "#time", "#journey"]
+        "authorImg": "https://randomuser.me/api/portraits/men/1.jpg",
+        "postDate": "2023-08-22",
+        "readingTime": 7,
+        "hashtag": ["#history", "#time", "#journey"],
+        "coverImg": "https://picsum.photos/seed/2e9400e0-b971-43c2-8529-414807178f3c/1080/720"
     },
     {
         "id": 3,
-        "cover-title": "The Art of Cooking",
+        "coverTitle": "The Art of Cooking",
         "author": "Emily Johnson",
-        "author-img": "https://randomuser.me/api/portraits/women/2.jpg",
-        "post-date": "2023-07-30",
-        "reading-time": 10,
-        "hashtag": ["#cooking", "#food", "#art"]
+        "authorImg": "https://randomuser.me/api/portraits/women/2.jpg",
+        "postDate": "2023-07-30",
+        "readingTime": 10,
+        "hashtag": ["#cooking", "#food", "#art"],
+        "coverImg": "https://picsum.photos/seed/abe15bdc-a795-4d9d-945d-e35fcf091888/1080/720"
     },
     {
         "id": 4,
-        "cover-title": "Exploring the Depths of the Ocean",
+        "coverTitle": "Exploring the Depths of the Ocean",
         "author": "Michael Brown",
-        "author-img": "https://randomuser.me/api/portraits/men/2.jpg",
-        "post-date": "2023-06-18",
-        "reading-time": 8,
-        "hashtag": ["#ocean", "#exploration", "#marine"]
+        "authorImg": "https://randomuser.me/api/portraits/men/2.jpg",
+        "postDate": "2023-06-18",
+        "readingTime": 8,
+        "hashtag": ["#ocean", "#exploration", "#marine"],
+        "coverImg": "https://picsum.photos/seed/3a267609-2a8e-4d72-8971-5212644deb37/1080/720"
     },
     {
         "id": 5,
-        "cover-title": "The Future of Technology",
+        "coverTitle": "The Future of Technology",
         "author": "Sarah Wilson",
-        "author-img": "https://randomuser.me/api/portraits/women/3.jpg",
-        "post-date": "2023-05-05",
-        "reading-time": 6,
-        "hashtag": ["#technology", "#future", "#innovation"]
+        "authorImg": "https://randomuser.me/api/portraits/women/3.jpg",
+        "postDate": "2023-05-05",
+        "readingTime": 6,
+        "hashtag": ["#technology", "#future", "#innovation"],
+        "coverImg": "https://picsum.photos/seed/8799940e-2d19-45b9-aef2-66a0edf79e54/1080/720"
     }
 ]
