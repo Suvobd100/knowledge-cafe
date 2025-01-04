@@ -16,9 +16,14 @@ function App() {
     // console.log(bookmarks);
   }
 
-  const handelReadTime=time=>{
+  const handelReadTime=(id,time)=>{
+    // alert(time)
     setReadtime(readtime + time)
     // console.log('from HandelTime fun');
+    // console.log('mark as read id:-',id);
+    const remainningBookmarks = bookmarks.filter(b => b.id !== id);
+    setBookmarks(remainningBookmarks)
+
   }
  
 
@@ -42,6 +47,7 @@ function App() {
 App.propTypes ={
   handelBookMark: PropTypes.func.isRequired,
   handelReadTime: PropTypes.func.isRequired,
+  readtime: PropTypes.number.isRequired
 
 }
 

@@ -3,7 +3,7 @@ import bookmarkIcon from "../../images/bookmark-16.png"
 
 const Blog = ({blog,handelBookMark,handelReadTime}) => {
     
-    const{coverImg,coverTitle,author,authorImg,postDate,
+    const{id,coverImg,coverTitle,author,authorImg,postDate,
         readingTime,hashtag} = blog;
   return (
     <div className="mb-20">
@@ -30,7 +30,7 @@ const Blog = ({blog,handelBookMark,handelReadTime}) => {
                 hashtag.map((h,idx) =><span key={idx} className="ml-2"><a href="">{h}</a></span>)
             }
         </p>
-        <button onClick={()=>{handelReadTime(readingTime)}} href='' className="text-blue-700 underline font-bold"> Mark As Read</button>
+        <button onClick={()=>{handelReadTime(id,readingTime)}}  className="text-blue-700 underline font-bold"> Mark As Read</button>
     </div>
   )
 }

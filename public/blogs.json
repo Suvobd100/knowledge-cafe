@@ -48,5 +48,45 @@
         "readingTime": 6,
         "hashtag": ["#technology", "#future", "#innovation"],
         "coverImg": "https://picsum.photos/seed/8799940e-2d19-45b9-aef2-66a0edf79e54/1080/720"
+    },
+    {
+        "id": 6,
+        "coverTitle": "Exploring the Depths of the Ocean",
+        "author": "Michael Brown",
+        "authorImg": "https://randomuser.me/api/portraits/men/2.jpg",
+        "postDate": "2023-06-18",
+        "readingTime": 8,
+        "hashtag": ["#ocean", "#exploration", "#marine"],
+        "coverImg": "https://picsum.photos/seed/3a267609-2a8e-4d72-8971-5212644deb37/1080/720"
+    },
+    {
+        "id": 7,
+        "coverTitle": "The Future of Technology",
+        "author": "Sarah Wilson",
+        "authorImg": "https://randomuser.me/api/portraits/women/3.jpg",
+        "postDate": "2023-05-05",
+        "readingTime": 6,
+        "hashtag": ["#technology", "#future", "#innovation"],
+        "coverImg": "https://picsum.photos/seed/8799940e-2d19-45b9-aef2-66a0edf79e54/1080/720"
+    },
+    {
+        "id": 8,
+        "coverTitle": "The Future of Technology",
+        "author": "Sarah Wilson",
+        "authorImg": "https://randomuser.me/api/portraits/women/3.jpg",
+        "postDate": "2023-05-05",
+        "readingTime": 6,
+        "hashtag": ["#technology", "#future", "#innovation"],
+        "coverImg": "https://picsum.photos/seed/8799940e-2d19-45b9-aef2-66a0edf79e54/1080/720"
+    },
+    {
+        "id": 9,
+        "coverTitle": "The Future of Technology",
+        "author": "Sarah Wilson",
+        "authorImg": "https://randomuser.me/api/portraits/women/3.jpg",
+        "postDate": "2023-05-05",
+        "readingTime": 6,
+        "hashtag": ["#technology", "#future", "#innovation"],
+        "coverImg": "https://picsum.photos/seed/8799940e-2d19-45b9-aef2-66a0edf79e54/1080/720"
     }
 ]
